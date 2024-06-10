@@ -94,7 +94,7 @@
                 $pw = $_GET['pw'];
         }
         
-        $conn  = new PDO('mysql:host=localhost; dbname=location_imobilier','Mama','Mama@123@');
+        $conn  = new PDO('mysql:host=localhost; dbname=location_imobilier','##***','*****');
 
         if(!empty($cin) && !empty($nom) && !empty($prenom) && !empty($age) && !empty($email) && !empty($pw)){
             $x = $conn->prepare('INSERT INTO client VALUES (Null,?,?,?,?,?,?)');
