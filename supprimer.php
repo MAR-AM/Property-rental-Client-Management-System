@@ -1,5 +1,5 @@
 <?php
-    $conn  = new PDO('mysql:host=localhost; dbname=Location_Imobilier','Mama','Mama@123@');
+    $conn  = new PDO('mysql:host=localhost; dbname=Location_Imobilier','********','******');
   
     
     $id = $_GET['id_client'];
